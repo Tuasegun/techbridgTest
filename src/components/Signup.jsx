@@ -43,7 +43,7 @@ function Signup() {
             </Text>
           </Box>
           <Box pos="relative" boxSize="sm" mt="90%" ml="20px">
-            <Image src={Doodles} w="350 .21px" h="276px" alt="illustration" />
+            <Image boxSize="350px" src={Doodles}  h="276px" alt="illustration" />
           </Box>
         </Box>
 
@@ -55,7 +55,7 @@ function Signup() {
           <Container bg="#E5E5E5" mt="136px" maxW={"container.lg"}>
             <Box
               bg="#E5E5E5"
-              h={"1100px"}
+              maxHeight={"100%"}
               pos="relative"
               ml={{ md: "80%" }}
               mr={{ sm: "50%" }}

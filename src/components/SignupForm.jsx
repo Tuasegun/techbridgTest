@@ -80,7 +80,7 @@ export const SignUpForm = () => {
   }
 
   return (
-    <Box my={2}>
+    <Box>
       <form onSubmit={submit}>
         <Box>
           <UnorderedList listStyleType="none" color="red">

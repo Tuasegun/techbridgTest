@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 function Signup() {
   return (
     <>
-      <Box bg="#E5E5E5" h="100%" d="flex" w="100%" h="100%" flexDirection="row">
+      <Box bg="#E5E5E5" overflow="-moz-hidden-unscrollable" h="100%" d="flex" w="100%" h="100%" flexDirection="row">
         <Box
           display={{ base: "none", md: "none", lg: "block" }}
           pos="absolute"

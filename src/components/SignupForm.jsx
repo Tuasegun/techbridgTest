@@ -101,7 +101,7 @@ export const SignUpForm = () => {
                 borderColor="#7B7B7B"
                 focusBorderColor="#122888"
                 name="fullName"
-                w={"589px"}
+                maxW={{base:"342px",md:"342px",lg:"500px"}}
                 type="text"
                 onBlur={handleChange}
                 errorBorderColor={
@@ -132,7 +132,7 @@ export const SignUpForm = () => {
                 placeholder="Emekaobi@gmail.com"
                 borderColor="#7B7B7B"
                 focusBorderColor="#122888"
-                w={"589px"}
+                maxW={{base:"342px",md:"342px",lg:"500px"}}
                 type="email"
                 name="email"
                 onBlur={handleChange}
@@ -163,7 +163,7 @@ export const SignUpForm = () => {
                 pl="40"
                 focusBorderColor="#122888"
                 type="password"
-                w={"589px"}
+                maxW={{base:"342px",md:"342px",lg:"500px"}}
                 name="password"
                 onBlur={handleChange}
                 errorBorderColor={

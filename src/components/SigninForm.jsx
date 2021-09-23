@@ -35,7 +35,7 @@ const SigninForm = () => {
                 placeholder="Emekaobi@gmail.com"
                 borderColor="#7B7B7B"
                 focusBorderColor="#122888"
-                w={"80%"}
+                maxW={{base:"342px",md:"342px",lg:"500px"}}
                 type="email"
                 name="email"
                 // onBlur={handleChange}
@@ -63,7 +63,7 @@ const SigninForm = () => {
                 borderColor="#7B7B7B"
                 focusBorderColor="#122888"
                 type={show ? "text" : "password"}
-                w={"80%"}
+                maxW={{base:"342px",md:"342px",lg:"500px"}}
                 name="password"
                 placeholder={"Password should be contain at least 5 characters"}
                 // onBlur={handleChange}

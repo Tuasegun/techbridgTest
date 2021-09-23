@@ -53,7 +53,7 @@ function Signin() {
             <Navbar bg="#FDFDFD" />
           </header>
 
-          <Container bg="#E5E5E5" mt="136px" maxW={"container.lg"}>
+          <Container bg="#E5E5E5" mt="136px" maxW={"container.md"}>
             <Box
               bg="#E5E5E5"
               maxHeight="100%"
